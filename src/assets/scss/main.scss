@@ -1,0 +1,12 @@
+@import './mixins.scss';
+@import './fonts.scss';
+@import './variables.scss';
+@import './icons.scss';
+@import './typography.scss';
+@import './null.scss';
+
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: $base;
+  color: $white;
+}
