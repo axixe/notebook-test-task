@@ -66,3 +66,18 @@
 @mixin text-bold {
   font-weight: 700;
 }
+
+@mixin icon16 {
+  width: 16px;
+  height: 16px;
+}
+
+@mixin icon20 {
+  width: 20px;
+  height: 20px;
+}
+
+@mixin icon32 {
+  width: 32px;
+  height: 32px;
+}
