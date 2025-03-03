@@ -1,0 +1,68 @@
+@mixin h1-font {
+  font-size: 104px;
+  font-weight: 900;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 60px;
+    line-height: 64px;
+  }
+}
+
+@mixin h2-font {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@mixin h3-font {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@mixin h4-font {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+
+@mixin text-normal {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@mixin text-small {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@mixin text-bold {
+  font-weight: 700;
+}
