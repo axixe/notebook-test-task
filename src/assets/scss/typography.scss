@@ -25,3 +25,21 @@ h4,
 .caption-p {
   @include text-small;
 }
+
+button,
+.button-template {
+  @include text-normal;
+}
+
+a,
+.link {
+  @include text-small;
+  @include text-bold;
+}
+
+input,
+textarea,
+.input,
+.textarea {
+  @include text-small;
+}
